@@ -171,9 +171,10 @@ ul{
     }
     
 }
+
 @media screen and (min-width:1700px) and (max-width:4000px){
     .navbar{
-        width: 
+        width: 93.75rem;
         margin-left: 531px;
     }
 }
