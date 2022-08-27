@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1500px !important;
+    margin: 0 auto;
+}
+:root{
+    --black:#000;
+    --white:#fff;
+    --light_orange:#F7BA4D;
+
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.nav-link{
+    color: var(--black) !important;
+}
+.navbar{
+    background: rgba(255, 255, 255, 0.4) !important;
+    box-shadow: 0px 4px 7px 1px rgba(0, 0, 0, 0.5);
+    border-bottom: 0.313rem solid var(--light_orange);
+    
+}
+
+
+.image{
+    background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.52), rgba(14, 14, 14, 0.73)),
+    url('./images/pexels-david-bartus-610293\ 1.png');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.list{
+    list-style: none;
+    padding-top: 250px;
+    margin-left: -70px;
+}
+.list li a{
+    color: #fff;
+}
+.active{
+    display: none;
+}
+.home,
+.home1,
+.services{
+    display: none;
+}
+.home2{
+    display: block;
+}
+.aaa{
+    background: rgba(255, 255, 255, 1) !important; 
+}
+.nav-item:hover .dropdown-menu{
+    display: block;
+}
+
+.menu_phone {
+    background-color: var(--light_orange);
+    width: 25px;
+    height: 25px;
+    margin-top: 7px;
+    position: relative;
+    border-radius: 5px;
+}
+.bi-telephone-fill {
+    position: absolute;
+ 
+    top: 2px;
+    font-size: 14px;
+    left: 5px;
+}
+.menu_contact{
+    background-color: var(--light_orange);
+    width:100px;
+    text-align: center;
+    border-radius: 5px;
+}
+.dropdown_submenu{
+    display: none;
+    position: relative;
+}
+.portfolio1:hover .dropdown_submenu{
+    display: block;
+    position: absolute;
+    left: 150px;
+    top: 395px;
+    display: flex;
+    flex-direction: column;
+}
+.home_sub{
+    padding-left: 30px;
+}
+.bi-house-fill,
+.bi-emoji-sunglasses-fill,
+.bi-shield-slash-fill{
+    position: absolute;
+    left: 4px;
+    color: var(--white);
+}
+
+.dropdown-menu{
+    background-color: var(--light_orange) !important;
+}
+.dropdown-item{
+    color: var(--black);
+    font-weight: 700;
+}
+.hover_nav:hover{
+    color: var(--light_orange) !important;
+}
+.contact_nav:hover{
+    color: var(--white) !important;
+}
+.second_part{
+    padding-top: 210px;
+}
+.second_part_we{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 3rem;
+    color: #FFFFFF;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--black);
+}
+.second_part_photographer{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: var(--light_orange);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--black);
+}
+.header_search{
+    width: 10rem;
+    background-color: var(--light_orange);
+    color: var(--black);
+    display: flex;
+    border-radius: 30px;
+    padding: 3px 3px;
+}
+.header_search_item{
+    padding-left: 10px;
+    margin-top: 5px !important;
+}
+.header_search_icon{
+    padding-left: 20px;
+    font-size: 1.75rem;
+}
+.header_search_icon:hover{
+    color: var(--white);
+}
+.search_item:hover{
+    color: var(--white);
+}
+.search_item{
+    color: #000;
+}
+@media screen and (max-width:767px){
+    .list{
+        display: none;
+    }
+    
+}
+@media screen and (min-width:1700px) and (max-width:4000px){
+    .navbar{
+        width: 58.5%;
+        margin-left: 531px;
+    }
+}
