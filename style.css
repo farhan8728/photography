@@ -29,7 +29,6 @@ ul{
     background: rgba(255, 255, 255, 0.4) !important;
     box-shadow: 0px 4px 7px 1px rgba(0, 0, 0, 0.5);
     border-bottom: 0.313rem solid var(--light_orange);
-    
 }
 
 
@@ -49,20 +48,10 @@ ul{
 .list li a{
     color: #fff;
 }
-.active{
-    display: none;
-}
-.home,
-.home1,
-.services{
-    display: none;
-}
-.home2{
-    display: block;
-}
-.aaa{
-    background: rgba(255, 255, 255, 1) !important; 
-}
+
+
+
+
 .nav-item:hover .dropdown-menu{
     display: block;
 }
@@ -77,7 +66,6 @@ ul{
 }
 .bi-telephone-fill {
     position: absolute;
- 
     top: 2px;
     font-size: 14px;
     left: 5px;
@@ -173,6 +161,48 @@ ul{
     .list{
         display: none;
     }
-    
+    .second_part_we{
+        font-size: 2rem;
+        margin-top: 3.625rem;
+    }
+    .second_part_photographer{
+        font-size: 2.3rem;
+    }
+    .home,
+    .home1,
+    .services{
+        display: block;
+    }
+    .navbar{
+        background: rgba(255, 255, 255, 1) !important;
+        box-shadow: 0px 4px 7px 1px rgba(0, 0, 0, 0.5);
+        border-bottom: 0.313rem solid var(--light_orange);
+    }
+    .menu_phone{
+        position: absolute;
+        top: 18rem;
+    }
+    #number{
+        margin-left: 31px !important;
+    }
 }
+@media screen and (min-width:768px) and (max-width:991px){
 
+}
+@media screen and (min-width:992px) and (max-width:4000px){
+    .home,
+    .home1,
+    .services{
+    display: none;
+    }
+    .aaa{
+        background: rgba(255, 255, 255, 1) !important; 
+    }
+    .active{
+        display: none;
+    }
+    .home2{
+        display: block;
+    }
+
+}
