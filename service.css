@@ -15,8 +15,7 @@ body{
     --light-orange:#F7BA4D;
 }
 .nav_bar2{
-    background-color: red !important;
-    
+    background-color: red !important; 
 }
 .nav_bar1{
     background-color: red !important;
@@ -54,10 +53,5 @@ body{
     }
 }
 
-@media screen and (max-width:767px){
-    .service_provide,
-    .the_best{
-        
-    }
-}
+
    

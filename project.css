@@ -1,0 +1,25 @@
+body{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.work_project{
+    color: #F7BA4D;
+}
+.button_see{
+    background-color: #F7BA4D;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.more_work{
+    color: #fff;
+    text-decoration: none;
+}
+.more_work:hover{
+    color: #fff;
+}
+.button_see:hover{
+    
+    background-color: #F7BA4D;
+    border: 1px solid #000;
+}

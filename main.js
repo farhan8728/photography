@@ -60,8 +60,7 @@ function farhan1(){
         some2.classList.add('aaa');
     }
     else{
-        some2.classList.remove('aaa');
-        
+        some2.classList.remove('aaa'); 
     }
 }
 

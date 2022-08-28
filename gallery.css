@@ -1,0 +1,62 @@
+
+.owl-theme .owl-dots{
+    display: none;
+}
+ 
+.owl-carousel .owl-nav button.owl-prev{
+    background: #000;
+    height: 50px;
+    width: 50px;
+    color: red;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+    font-size: 2rem;
+    
+}
+.owl-carousel .owl-nav button.owl-next{
+    background: 0 0;
+    color: red !important;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+    font-size: 2rem;
+    height: 50px;
+    width: 50px;
+    background: #000;
+    
+}
+.owl-carousel .owl-nav button.owl-prev:hover{
+    color: blue;
+    background-color: #000;
+}
+.owl-carousel .owl-nav button.owl-next:hover{
+    color: blue;
+    background-color: #000;
+}
+.item{
+    background-color: #F7BA4D;
+    padding: 10px 15px;
+    text-align: center;
+}
+.img37{
+    height: 200px;
+    margin-bottom: 20px;
+    margin-top: 24px;
+}
+.img38{
+    height: 330px;
+}
+.load_more{
+    background-color: #F7BA4D;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    
+
+}
+.load{
+    color: #000;
+    text-decoration: none;
+    
+}
