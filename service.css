@@ -10,15 +10,17 @@ body{
 .navbar{
     max-width: 1500px;
     margin: 0 auto;
+    background: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0px 4px 7px 1px rgba(0, 0, 0, 0.5);
+    border-bottom: 0.313rem solid #F7BA4D;
 }
 :root{
     --light-orange:#F7BA4D;
 }
 .nav_bar2{
-    background-color: red !important; 
 }
 .nav_bar1{
-    background-color: red !important;
+    
 }
 .service_provide{
     text-align: center;
@@ -44,6 +46,48 @@ body{
     color: #000;
     border: 1px solid #000;
 }
+.dropdown-menu{
+    background-color: #F7BA4D;
+}
+.hover_nav{
+    color: #000 !important;
+}
+.hover_nav:hover{
+    color: #F7BA4D !important;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.menu_phone {
+    background-color: #F7BA4D;
+    width: 25px;
+    height: 25px;
+    margin-top: 7px;
+    position: relative;
+    border-radius: 5px;
+}
+.bi-telephone-fill {
+    position: absolute;
+    top: 2px;
+    font-size: 14px;
+    left: 5px;
+}
+.menu_contact{
+    background-color: #F7BA4D;
+    width:100px;
+    text-align: center;
+    border-radius: 5px;
+}
+.contact_nav{
+    color: #fff !important;
+}
+.active{
+    color: #F7BA4D !important;
+}
+.all_item{
+    max-width: 1500px;
+    margin: 0 auto;
+}
 @media screen and (min-width:768px) and (max-width:991px){
     .card_image{
         margin-left:9.375rem;
@@ -51,7 +95,19 @@ body{
     .img2{
         margin-top: 15px;
     }
+    #number{
+        margin-left: 1.938rem !important;
+        margin-top: -2.125rem !important;
+    }
 }
 
+
+@media screen and (max-width:767px){
+    #number{
+        margin-left: 1.938rem !important;
+        margin-top: -2.125rem !important;
+    }
+    
+}
 
    

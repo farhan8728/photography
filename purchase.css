@@ -73,6 +73,10 @@ a{
 .lorem1{
     display: none;
 }
+.all_card{
+    max-width: 1500px;
+    margin: 0 auto;
+}
 @media screen and (max-width:767px){
     .purchase{
         font-size: 1.3rem;
