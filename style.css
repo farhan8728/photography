@@ -122,8 +122,7 @@ ul{
     font-weight: 500;
     font-size: 3rem;
     color: #FFFFFF;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: var(--black);
+    
 }
 .second_part_photographer{
     font-family: 'Roboto';
@@ -131,8 +130,7 @@ ul{
     font-weight: 700;
     font-size: 3.5rem;
     color: var(--light_orange);
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: var(--black);
+    
 }
 .header_search{
     width: 10rem;
@@ -142,6 +140,12 @@ ul{
     border-radius: 30px;
     padding: 3px 3px;
 }
+.header_search:hover{
+    color: #fff;
+}
+.header_search{
+    cursor: pointer;
+}
 .header_search_item{
     padding-left: 10px;
     margin-top: 5px !important;
@@ -150,9 +154,9 @@ ul{
     padding-left: 20px;
     font-size: 1.75rem;
 }
-.header_search_icon:hover{
+/* .header_search_icon:hover{
     color: var(--white);
-}
+} */
 .search_item:hover{
     color: var(--white);
 }
@@ -195,6 +199,131 @@ ul{
     bottom: 0;
     margin: 0 auto;
 }
+
+.progress_bar{
+    background-image: linear-gradient(to bottom, rgba(23, 23, 23, 0.52), rgba(96, 94, 94, 0.73)),
+    url('./images/pexels-matej-614077 1.png');
+    background-size: cover;
+    width: 100%;
+    
+    margin-top: 4rem;
+
+}
+.progress_choose_us{
+    color: #fff;
+    font-size: 2.5rem;
+    margin-top: 2.5rem;
+    opacity: .8;
+}
+.capture_the{
+    font-size: 3.5rem;
+    color: #fff;
+}
+.progress_one{
+    background-color: #fff;
+    width: 250px;
+    position: relative;
+    height: 20px;
+    border-radius: 10px;
+}
+.progress_one_body{
+    height: 100%;
+    background-color: #F7BA4D;
+    border-radius: 10px;
+    width: 200px;
+    animation: farhan 15s forwards;
+}
+
+
+.progress_two{
+    background-color: #fff;
+    width: 250px;
+    position: relative;
+    height: 20px;
+    border-radius: 10px;
+}
+.progress_two_body{
+    height: 100%;
+    background-color: #F7BA4D;
+    border-radius: 10px;
+    width: 200px;
+    animation: progress_two 15s forwards;
+}
+
+.progress_three{
+    background-color: #fff;
+    width: 250px;
+    position: relative;
+    height: 20px;
+    border-radius: 10px;
+}
+.progress_three_body{
+    height: 100%;
+    background-color: #F7BA4D;
+    border-radius: 10px;
+    width: 200px;
+    animation: progress_three 15s forwards;
+}
+
+.photo_skill{
+    color: #fff;
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+}
+.camera{
+    color: #fff;
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+}
+.vedio_skill{
+    color: #fff;
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+}
+.images{
+    margin-top: 2.5rem;
+    padding-bottom: 3rem;
+}
+.footer{
+    background-color: #F7BA4D;
+    width: 100%;
+}
+.footer_details{
+    padding: 20px 0 20px 0;
+}
+.mobile{
+    display: none;
+}
+@keyframes farhan {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+    
+}
+
+@keyframes progress_two {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+    
+}
+
+@keyframes progress_three {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+    
+}
+
 @media screen and (max-width:767px){
     .list{
         display: none;
@@ -245,6 +374,19 @@ ul{
     .about_weare{
         text-align: center;
     }
+    .progress_choose_us{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .capture_the{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .mobile{
+        display: block;
+    }
+    
+ 
 }
 @media screen and (min-width:768px) and (max-width:991px){
     .home,
