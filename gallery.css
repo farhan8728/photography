@@ -118,6 +118,17 @@
     color: #fff !important;
     background-color: #F7BA4D !important;
 }
+.footer{
+    background-color: #F7BA4D;
+    width: 100%;
+}
+.footer_details{
+    padding: 20px 0 20px 0;
+}
+.footer{
+    max-width: 1500px;
+    margin: 0 auto;
+}
 @media screen and (max-width:767px){
     .img34{
         margin-top: 1rem;
